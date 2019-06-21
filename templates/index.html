@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="static/estilo.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h3>Por favor, digite seu login</h3>
+      <br>
+      <div class="entradas">
+        <form action="" method="post">
+          <input type="text" placeholder="Usuário" name="username" value="{{request.form.username }}">
+          <br>
+          <input type="password" placeholder="Senha" name="password" value="{{request.form.password }}">
+          <br>
+          <input class="btn btn-default" type="submit" value="Entrar">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
